@@ -8,8 +8,8 @@
 
 /* Base reset */
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 /* box-sizing and font sizing */
@@ -136,8 +136,8 @@ img {
 
 .nav-list a {
   display: block;
-  font-size: 2.2rem;
   padding: 2rem;
+  font-size: 2.2rem;
 }
 
 .nav-list a:hover {
@@ -169,14 +169,14 @@ img {
 /* Projects section */
 
 .projects-section {
-  text-align: center;
   padding: 10rem 2rem;
+  text-align: center;
   background: var(--main-blue);
 }
 
 .projects-section-header {
-  max-width: 640px;
   margin: 0 auto 6rem auto;
+  max-width: 640px;
   border-bottom: 0.2rem solid var(--main-white);
 }
 
@@ -263,13 +263,13 @@ img {
 
 .contact-section {
   display: flex;
+  padding: 0 2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   width: 100%;
   height: 80vh;
-  padding: 0 2rem;
   background: var(--main-gray);
 }
 
@@ -290,9 +290,9 @@ img {
 .contact-links {
   display: flex;
   justify-content: center;
+  margin-top: 4rem;
   width: 100%;
   max-width: 980px;
-  margin-top: 4rem;
   flex-wrap: wrap;
 }
 
